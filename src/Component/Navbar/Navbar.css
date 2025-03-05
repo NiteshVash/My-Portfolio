@@ -60,18 +60,37 @@
   margin: 7px;
 }
 
-@media screen and (max-width: 768px) {
-  .DesktopMenuListItem {
-    margin: 1rem;
-  }
-
-  .desktopbtn {
-    padding: 0 0.25rem;
-  }
-
-  .Logo {
-    height: 1.5rem;
-    width: 1.5rem;
-  }
+.active {
+  padding-bottom: 0.5rem;
+    color: black;
+    border-bottom: 3px solid black;
 }
 
+@media screen and (max-width: 1024px) {
+  .Navbar {
+    padding: 1.5rem;
+    overflow: hidden;
+  }
+
+  .DesktopMenuListItem {
+    margin: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+}
+
+
+@media screen and (max-width: 620px) {
+  .Navbar {
+    padding: 1.5rem;
+    overflow: hidden;
+  }
+
+  .DesktopMenuListItem {
+    margin: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+}

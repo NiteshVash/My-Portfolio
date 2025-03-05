@@ -12,7 +12,7 @@ function Languages() {
     <section id='Languagessection' className='Languagessection'>
       <div className="Languagescontainer">
         <h1 className='Languagesconatinerheading'>Languages</h1>
-        <div className="languagesdiscription">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum unde voluptate repudiandae eos,</div>
+        <div className="languagesdiscription">I learn this languages from my institute and social media platform </div>
         <div className="languagecontainer2">
           <div className="languagename">
             <div className="languagenametitle">HTML</div>

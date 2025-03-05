@@ -85,3 +85,30 @@
   border-bottom: 2px solid black;
   cursor: pointer;
 }
+
+
+@media screen and (max-width: 1024px) {
+  .Contact {
+      padding: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Contact {
+      padding: 1rem;
+  }
+
+  .contactform {
+      width: 100%;
+  }
+
+  .name, .gmail, .msg {
+      width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .Contact {
+      padding: 0.5rem;
+  }
+}

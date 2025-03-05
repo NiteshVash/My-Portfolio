@@ -81,29 +81,3 @@
 }
 
 
-
-@media screen and (max-width: 375px) {
-  .intro {
-    padding: 2rem;
-  }
-  .introName {
-    font-size: 1.5rem;
-  }
-  .introdisc {
-    font-size: 1.5rem;
-  }
-  .introPara {
-    font-size: 1rem;
-  }
-  .introtext {
-    font-size: 0.8rem;
-  }
-  .introBtn {
-    padding: 1rem;
-  }
-  .introBtnimg {
-    height: 20px;
-    width: 20px;
-    margin: 10px;
-  }
-}
