@@ -1,0 +1,61 @@
+.Languagessection{
+    color: black;
+    width: 100vw;
+    max-width: 75rem;
+    height: 100vh;
+    background-color: rgb(255, 255, 255); /* Example background color */
+    margin: 0 auto;
+    
+    display: flex;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+.languagecontainer2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 2rem;
+}
+
+.languagenameimg {
+    width: 10rem;
+    height: 10rem;
+    margin: 1rem;
+    border-radius: 30px;
+    cursor: not-allowed;
+    transition: transform 0.3s ease-in-out; /* Add transition for smooth zoom effect */
+}
+
+.languagenameimg:hover {
+    transform: scale(1.1); /* Scale the image to 110% on hover */
+}
+
+.languagenametitle{
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.Languagesconatinerheading {
+    font-size: 1.5rem;
+    padding: 5px;
+    font-weight: 700;
+    text-align: center;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.languagesdiscription {
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    text-align: center;
+    padding: 5px;
+}
+

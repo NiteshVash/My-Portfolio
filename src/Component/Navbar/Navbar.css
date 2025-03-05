@@ -1,0 +1,103 @@
+.Navbar {
+  height: 3rem;
+  width: 100vw;
+  max-width: 75rem;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  background-color: #4277eb;
+  z-index: 3;
+}
+
+.Logo {
+  height: 2rem;
+  object-fit: cover;
+  width: 2rem;
+}
+
+.DesktopMenuListItem:hover {
+  color: black;
+  /* margin-bottom: 0.5rem; */
+  border-bottom: 3px solid black;
+}
+
+.DesktopMenu{
+  margin: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.DesktopMenuListItem {
+  margin: 2rem;
+  cursor: pointer;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.desktopbtn {
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border: none;
+  display: flex;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 0 0.5rem;
+  border-radius: 20px;
+}
+
+.desktopbtn:hover {
+  color: rgb(255, 255, 255);
+  color: black;
+  border-bottom: 3px solid black;
+}
+
+.Desktopbtnimg {
+  height: 16px;
+  object-fit: cover;
+  width: 16px;
+  margin: 7px;
+}
+
+.active {
+  padding-bottom: 0.5rem;
+    color: black;
+    border-bottom: 3px solid black;
+}
+
+@media screen and (max-width: 1024px) {
+  .Navbar {
+    padding: 1.5rem;
+    overflow: hidden;
+  }
+
+  .DesktopMenuListItem {
+    margin: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+}
+
+
+@media screen and (max-width: 620px) {
+  .Navbar {
+    padding: 1.5rem;
+    overflow: hidden;
+  }
+
+  .DesktopMenuListItem {
+    margin: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+}

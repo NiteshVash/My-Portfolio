@@ -1,0 +1,83 @@
+.intro {
+  color: black;
+  width: 100vw;
+  max-width: 75rem;
+  background-color: #ffffff; /* Example background color */
+  margin: 0 auto;
+  height: 100vh; /* Set the height to 100% of the viewport height */
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.introBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  padding: 1rem;
+  height: 25px;
+  width: auto;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 20px;
+  /* border-color: 2px solid black; */
+}
+.introBtn:hover {
+  background-color: #ffffff;
+  /* position: absolute; */
+  /* padding-bottom: 0.5rem; */
+  color: black;
+  border-bottom: 3px solid black;
+  cursor: pointer;
+}
+
+.introBtnimg {
+  height: 16px;
+  width: 16px;
+  margin: 7px;
+}
+.introtext {
+  font-size: 1rem;
+  font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  /* margin: 1rem; */
+  text-align: center;
+}
+.introBtntext {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.introtext1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.introName {
+  font-size: 2rem;
+  font-weight: 800;
+  color: red;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+.introdisc {
+  font-size: 2.6rem;
+  font-weight: 800;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 1px;
+}
+.introPara {
+  font-size: 16px;
+  font-weight: 200;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 4px;
+}
+
+
