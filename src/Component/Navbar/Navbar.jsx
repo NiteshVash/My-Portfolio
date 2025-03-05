@@ -1,7 +1,7 @@
 import React from 'react'
 import Logo4 from '../../assests/Logo4.png'
 import contact from '../../assests/contact.png'
-import { Link } from 'react-scroll';
+import { Link } from 'react-router-dom';
 
 import './Navbar.css'
 
