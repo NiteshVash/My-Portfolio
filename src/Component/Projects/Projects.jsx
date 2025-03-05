@@ -28,7 +28,7 @@ function Projects() {
           </div>
         </div>
         <div className="projectContainer2">
-          <img src={Project} className="projectImg" />
+        <img src={Project} alt="project1" className="projectImg" />
           <div className="projectDiscription">
             <h3 className="projectdiscriptionTitle">Portfolio</h3>
             <p className="projectDescription">This is my own Portfolio Created by Me , here is my details About my Work and Projects .</p>

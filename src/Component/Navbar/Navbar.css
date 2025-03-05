@@ -23,9 +23,8 @@
 }
 
 .DesktopMenuListItem:hover {
-  color: rgb(255, 255, 255);
-  padding-bottom: 0.5rem;
   color: black;
+  padding-bottom: 0.5rem;
   border-bottom: 3px solid black;
 }
 
