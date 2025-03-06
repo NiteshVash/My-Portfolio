@@ -29,7 +29,7 @@ function Contact() {
                 <input className="name" type="text" placeholder='Name' name="user_name" />
                 <input className="gmail" type="text" placeholder='Email' name="user_email" />
                 <textarea className="msg" name="message" id="" cols="30" rows="10" placeholder='Message'></textarea>
-                <button className='submit' type='Send' >Submit</button>
+                <button className='submit' type='Send' value={Send} >Submit</button>
             </form>
         </section>
     )
