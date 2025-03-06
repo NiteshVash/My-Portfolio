@@ -8,26 +8,26 @@ import './Navbar.css'
 function Navbar() {
     return (
         <div className="Navbar">
-            <img src={Logo4} alt="Logo" className='Logo' />
+        <a href="https://nitesh-kumar-ten.vercel.app/"> <img src={Logo4} alt="Logo" className='Logo' /></a>
             <div className="DesktopMenu">
-                <div  className="DesktopMenuListItem" onClick={()=>{
-                     document.getElementById('intro').scrollIntoView({ behavior: 'smooth' } )
-                }}>Home</div>
-                <div className="DesktopMenuListItem" onClick={()=>{
-                     document.getElementById('projects').scrollIntoView({ behavior: 'smooth' } )
+                <div className="DesktopMenuListItem" onClick={() => {
+                    document.getElementById('intro').scrollIntoView({ behavior: 'smooth' })
+                }} >Home</div>
+                <div className="DesktopMenuListItem" onClick={() => {
+                    document.getElementById('projects').scrollIntoView({ behavior: 'smooth' })
                 }}>About</div>
-                <div className="DesktopMenuListItem" onClick={()=>{
-                     document.getElementById('Languagessection').scrollIntoView({ behavior: 'smooth' } )
+                <div className="DesktopMenuListItem" onClick={() => {
+                    document.getElementById('Languagessection').scrollIntoView({ behavior: 'smooth' })
                 }}>Language</div>
-                <div className="DesktopMenuListItem" onClick={()=>{
-                     document.getElementById('Contact').scrollIntoView({ behavior: 'smooth' } )
+                <div className="DesktopMenuListItem" onClick={() => {
+                    document.getElementById('Contact').scrollIntoView({ behavior: 'smooth' })
                 }}>Contact</div>
             </div>
             <button className='desktopbtn' onClick={() => {
-                document.getElementById('Contact').scrollIntoView({ behavior: 'smooth' } )
+                document.getElementById('Contact').scrollIntoView({ behavior: 'smooth' })
             }}>
 
-            <img src={contact} alt="" className='Desktopbtnimg' />Contact me </button>
+                <img src={contact} alt="" className='Desktopbtnimg' />Contact me </button>
         </div >
     )
 }

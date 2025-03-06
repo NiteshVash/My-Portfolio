@@ -24,6 +24,8 @@
 .contactdesc {
   font-size: 1rem;
   font-weight: 300;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  /* color: black; */
 }
 .contactform {
   display: flex;

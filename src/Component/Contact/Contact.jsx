@@ -7,7 +7,7 @@ function Contact() {
     return (
         <section id='Contact' className='Contact'>
             <h1 className="Contactpagetitle">Contact</h1>
-            <span className="contactdesc">get in touch</span>
+            <span className="contactdesc">Please fill out the form below to descuss any work opportunities .</span>
             <form  action="https://api.web3forms.com/submit" method="POST" className='contactform' >
             <input type="hidden" name="access_key" value="6943f459-d167-44b3-9f33-a196b332b464"></input>
                 <input className="name" type="text" placeholder='Name' name="name" />

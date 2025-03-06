@@ -19,6 +19,7 @@
 .Logo {
   height: 2rem;
   object-fit: cover;
+ border-radius: 20px;
   width: 2rem;
 }
 
@@ -60,6 +61,7 @@
   border-bottom: 3px solid black;
 }
 
+
 .Desktopbtnimg {
   height: 16px;
   object-fit: cover;
@@ -67,11 +69,7 @@
   margin: 7px;
 }
 
-.active {
-  padding-bottom: 0.5rem;
-    color: black;
-    border-bottom: 3px solid black;
-}
+
 
 @media screen and (max-width: 1024px) {
   .Navbar {
