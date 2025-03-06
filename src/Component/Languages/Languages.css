@@ -29,7 +29,7 @@
     height: 10rem;
     margin: 1rem;
     border-radius: 30px;
-    cursor: not-allowed;
+    cursor: pointer;
     transition: transform 0.3s ease-in-out; /* Add transition for smooth zoom effect */
 }
 

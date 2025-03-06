@@ -22,9 +22,9 @@ function Languages() {
             <div className="languagenametitle">Java Script</div>
             <img src={JS} alt='logo' className='languagenameimg' />
           </div>
-          <div className="languagename">
+          <div className="languagename">        
             <div className="languagenametitle">React</div>
-            <img src={react} alt='logo' className='languagenameimg' />
+           <img src={react} alt='logo' className='languagenameimg' />
           </div>
           <div className="languagename">
             <div className="languagenametitle">Java</div>
