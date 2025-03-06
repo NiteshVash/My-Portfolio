@@ -5,6 +5,8 @@ import JS from '../../assests/JS.png'
 import react from '../../assests/React.png'
 import java from '../../assests/java.png'
 import Css from "../../assests/Css.png";
+import C from "../../assests/C.png";
+import Cplus from "../../assests/Cplus.png";
 
 
 function Languages() {
@@ -34,6 +36,15 @@ function Languages() {
             <div className="languagenametitle">CSS</div>
             <img src={Css} alt='logo' className='languagenameimg' />
           </div>
+          <div className="languagename">
+            <div className="languagenametitle">C</div>
+            <img src={C} alt='logo' className='languagenameimg' />
+          </div>
+          <div className="languagename">
+            <div className="languagenametitle">C++</div>
+            <img src={Cplus} alt='logo' className='languagenameimg' />
+          </div>
+
         </div>
       </div>
     </section>
