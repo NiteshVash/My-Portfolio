@@ -20,7 +20,7 @@
   justify-content: center;
   align-items: center;
   margin-top: 1rem;
-  padding: 1rem;
+  padding: 5px 0.5rem;
   background-color: white;
   border: 1px solid black;
   border-radius: 20px;
@@ -32,13 +32,14 @@
 }
 
 .introBtnimg {
-  height: 16px;
-  width: 16px;
+  height: 34px;
+  width: 36px;
   margin-right: 7px;
 }
 
 .introtext {
   font-size: 1rem;
+
   font-weight: 400;
 }
 
