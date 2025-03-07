@@ -1,7 +1,6 @@
 import React from 'react';
 import './contact.css';
 
-
 function Contact() {
 
     return (
@@ -15,6 +14,7 @@ function Contact() {
                 <textarea className="msg" name="message" id="" cols="30" rows="10" placeholder='Message'></textarea>
                 <button className='submit' type="submit" value="Send" >Submit</button>
             </form>
+            
         </section>
     );
 }

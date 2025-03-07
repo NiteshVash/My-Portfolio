@@ -1,10 +1,11 @@
+
 .projects {
   color: black;
   width: 100vw;
+  height:calc(100vh-4rem);
   max-width: 75rem;
   background-color: rgb(255, 255, 255);
   margin: 0 auto;
-  height: 100%;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
@@ -19,55 +20,100 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 2rem;
+  text-align: center;
 }
 
 .projectTitle {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 700;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin-bottom: 1rem;
 }
 
-.projectDescription {
-  font-size: 0.90rem;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-weight: 400;
-  text-align: left;
-}
-
 .projectDescription1 {
-  font-size: 0.90rem;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1rem;
   font-weight: 400;
   text-align: center;
 }
 
+.projectsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  width: 100%;
+}
+
 .projectContainer2 {
   display: flex;
-  justify-content: flex-start;
+  flex-direction: column;
   align-items: center;
   gap: 1rem;
-  margin: 10px;
-  width: 600px;
-  padding: 10px;
-  transition: transform 0.3s ease-in-out;
+  width: 90%;
+  max-width: 400px;
+  padding: 1rem;
   border: 1px solid black;
   border-radius: 10px;
   cursor: pointer;
+  transition: transform 0.3s ease-in-out;
 }
 
 .projectContainer2:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .projectImg {
-  width: 70px;
-  height: 70px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
-  margin-right: 1rem;
 }
 
 .projectdiscriptionTitle {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-weight: 400;
+  font-weight: 600;
+  text-align: center;
+}
+
+.projectDescription {
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .projects {
+    padding: 2rem;
+  }
+  .projectTitle {
+    font-size: 1.5rem;
+  }
+  .projectsContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .projectContainer2 {
+    width: 100%;
+    max-width: 350px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .projects {
+    padding: 1rem;
+  }
+  .projectTitle {
+    font-size: 1.2rem;
+  }
+  .projectDescription1 {
+    font-size: 0.85rem;
+  }
+  .projectContainer2 {
+    width: 100%;
+    max-width: 300px;
+    padding: 0.5rem;
+  }
+  .projectImg {
+    width: 60px;
+    height: 60px;
+  }
+  .projectDescription {
+    font-size: 0.8rem;
+  }
 }

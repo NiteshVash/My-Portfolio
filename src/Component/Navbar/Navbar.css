@@ -1,3 +1,4 @@
+
 .Navbar {
   height: 3rem;
   width: 100vw;
@@ -19,83 +20,85 @@
 .Logo {
   height: 2rem;
   object-fit: cover;
- border-radius: 20px;
+  border-radius: 20px;
   width: 2rem;
+}
+
+.DesktopMenu {
+  display: flex;
+  gap: 2rem;
+}
+
+.DesktopMenuListItem {
+  cursor: pointer;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .DesktopMenuListItem:hover {
   color: black;
-  /* margin-bottom: 0.5rem; */
   border-bottom: 3px solid black;
 }
-
-.DesktopMenu{
-  margin: 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.DesktopMenuListItem {
-  margin: 2rem;
-  cursor: pointer;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
 .desktopbtn {
-  background: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
+  background: #fff;
+  color: #000;
   border: none;
   display: flex;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  padding: 0 0.5rem;
+  padding: 0 .5rem;
   border-radius: 20px;
 }
-
-.desktopbtn:hover {
-  color: rgb(255, 255, 255);
-  color: black;
-  border-bottom: 3px solid black;
-}
-
-
 .Desktopbtnimg {
   height: 16px;
   object-fit: cover;
   width: 16px;
   margin: 7px;
 }
-
-
-
-@media screen and (max-width: 1024px) {
-  .Navbar {
-    padding: 1.5rem;
-    overflow: hidden;
-  }
-
-  .DesktopMenuListItem {
-    margin: 10px;
-    overflow: hidden;
-    white-space: nowrap;
-  }
-
+.desktopbtn:hover {
+  border-bottom: 3px solid black;
 }
 
+.Mobmenuimg {
+  display: none;
+  object-fit: cover;
+  height: 1.8rem;
+  border-radius: 100%;
+  cursor: pointer;
+}
 
-@media screen and (max-width: 620px) {
-  .Navbar {
-    padding: 1.5rem;
-    overflow: hidden;
+.MobMenu {
+  position: absolute;
+  top: 4rem;
+  right: 2rem;
+  z-index: 2;
+  display: none;
+  flex-direction: column;
+  padding: 0.5rem;
+  min-width: 15rem;
+  background-color: rgb(40, 40, 40);
+  border-radius: 10px;
+}
+
+.MobMenu.show {
+  display: flex;
+}
+
+.MobMenuListItem {
+  color: white;
+  padding: 0.5rem 3rem;
+  margin: 0.25rem;
+  background-color: rgb(82, 82, 82);
+  text-align: center;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .DesktopMenu, .desktopbtn {
+    display: none;
   }
-
-  .DesktopMenuListItem {
-    margin: 10px;
-    overflow: hidden;
-    white-space: nowrap;
+  .Mobmenuimg {
+    display: block;
   }
-
 }
