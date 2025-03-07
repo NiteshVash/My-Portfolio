@@ -1,11 +1,17 @@
-import React from 'react';
+import React ,{useState,useEffect}from 'react';
 import { X } from 'lucide-react';
 import './Resume.css';
 
 function Resume({ onClose }) {
+    const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    setIsVisible(true);
+  }, []);
+  
   return (
-    <div className="resume fixed inset-0 flex items-center justify-center bg-white bg-opacity-70 backdrop-blur-sm">
-      <div className="resumeContainer bg-white p-6 rounded-lg shadow-lg w-11/12 md:w-3/5 lg:w-2/5 relative border border-blue-300">
+    <div className={`resume fixed inset-0 flex items-center justify-center bg-white bg-opacity-70 backdrop-blur-sm transition-opacity duration-300  ${isVisible ? 'opacity-100': 'opacity-0'} `}>
+      <div className={`resumeContainer bg-white p-6 rounded-lg shadow-lg w-11/12 md:w-3/5 lg:w-2/5 relative border border-blue-300 transform transition-transform duration-300 ${isVisible ? 'scale-100' : 'scale-90'}`}>
         <button 
           className="absolute top-4 right-4 text-blue-600 hover:text-black"
           onClick={onClose}
