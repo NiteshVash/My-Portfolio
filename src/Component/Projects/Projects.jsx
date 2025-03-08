@@ -1,6 +1,6 @@
 import React from 'react';
 import './Projects.css';
-import Clone from '../../assests/Clone.png';
+import Cnvtr from '../../assests/Cnvtr.png';
 import Clone2 from '../../assests/Clone2.png';
 import Project from '../../assests/Project.png';
 
@@ -15,18 +15,19 @@ function Projects() {
           detail. I am proficient in HTML, CSS, and JavaScript, as well as
           design software like Adobe Photoshop and Illustrator.
         </p>
-      </div>
+      </div> 
       <div className="projectsContainer">
-        <div className="projectContainer2">
-          <img src={Clone} alt="project1" className="projectImg" />
-          <div className="projectDiscription">
-            <h3 className="projectdiscriptionTitle">iPhone Clone</h3>
-            <p className="projectDescription">
-              This UI was created by me to understand JavaScript in depth using
-              HTML and CSS.
-            </p>
+        <a href="https://currency-converter-mu-five.vercel.app/" rel="noopener noreferrer">
+          <div className="projectContainer2">
+            <img src={Cnvtr} alt="project1" className="projectImg" />
+            <div className="projectDiscription">
+              <h3 className="projectdiscriptionTitle">Currency Converter</h3>
+              <p className="projectDescription">
+                This Converter was created by me for converting currency , i will use latest api for it .
+              </p>
+            </div>
           </div>
-        </div>
+        </a>
         <div className="projectContainer2">
           <img src={Clone2} alt="project1" className="projectImg" />
           <div className="projectDiscription">

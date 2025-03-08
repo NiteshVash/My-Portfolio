@@ -14,7 +14,7 @@ function Footer() {
                                         <a href="https://www.facebook.com/profile.php?id=100026515833512" target='_blank'><img src={Facebook} className='link' alt="facebook" /></a>
                                         <a href="https://www.linkedin.com/in/nitesh-kumar-993b70290/" target='_blank'><img src={Linkdin} className='link' alt="linkdin" /></a>
                                     </div>
-            <h1 className="footerh1"> &copy; 2025 All Copyright Reserved .</h1>
+            <h1 className="footerh1"> &copy; Nitesh Kumar . All Copyright Reserved .</h1>
         </div>
     );
 }
