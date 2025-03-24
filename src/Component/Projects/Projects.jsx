@@ -5,8 +5,30 @@ import Clone2 from '../../assests/Clone2.png';
 import Todolist from '../../assests/Todolist.png';
 
 function Projects() {
+  const projects = [
+    {
+      title: "Currency Converter",
+      description: "It allows users to convert currencies in real-time. It fetches the latest exchange rates from an API and provides an intuitive interface for users to input amounts and select currencies for conversion.",
+      image: Cnvtr,
+      link: "https://currency-converter-mu-five.vercel.app/"
+    },
+    {
+      title: "TodoList",
+      description: "Todolist helps users keep track of their tasks. Users can add, delete, and mark tasks as complete. The application is built with React and provides a clean and responsive user interface.",
+      image: Todolist,
+      link: ""
+    },
+    {
+      title: "Amazon Clone",
+      description: "This project is a clone of the Amazon website, replicating its core functionalities such as product listings, user authentication, and a shopping cart. It is built using React and Firebase for the backend.",
+      image: Clone2,
+      link: ""
+    }
+  ];
+
   return (
     <section id="projects" className="projects">
+
       <div className="projectintro">
         <h1 className="projectTitle">What I do</h1>
         <p className="projectDescription1">
@@ -17,40 +39,20 @@ function Projects() {
         </p>
       </div>
       <div className="projectsContainer">
-        <a href="https://currency-converter-mu-five.vercel.app/" rel="noopener noreferrer">
-          <div className="projectContainer2">
-            <img src={Cnvtr} alt="project1" className="projectImg" />
-            <div className="projectDiscription">
-              <h3 className="projectdiscriptionTitle">Currency Converter</h3>
-              <p className="projectDescription">
-              It allows users to convert currencies in real-time. It fetches the latest exchange rates from an API and provides an intuitive interface for users to input amounts and select currencies for conversion.
-              </p>
+        {projects.map((project, index) => (
+          <a key={index} href={project.link} rel="noopener noreferrer">
+            <div className="projectContainer2">
+              <img src={project.image} alt={project.title} className="projectImg" />
+              <div className="projectDiscription">
+                <h3 className="projectdiscriptionTitle">{project.title}</h3>
+                <p className="projectDescription">
+                  {project.description}
+                </p>
+              </div>
             </div>
-          </div>
-        </a>
-        <a href="">
-          <div className="projectContainer2">
-            <img src={Todolist} alt="project1" className="projectImg" />
-            <div className="projectDiscription">
-              <h3 className="projectdiscriptionTitle">TodoList</h3>
-              <p className="projectDescription">
-                Todolist helps users keep track of their tasks. Users can add, delete, and mark tasks as complete. The application is built with React and provides a clean and responsive user interface.
-              </p>
-            </div>
-          </div>
-        </a>
-        <a href="">
-          <div className="projectContainer2">
-            <img src={Clone2} alt="project1" className="projectImg" />
-            <div className="projectDiscription">
-              <h3 className="projectdiscriptionTitle">Amazon Clone</h3>
-              <p className="projectDescription">
-                This was my first clone of Amazon, which inspired me to build
-                user-friendly websites.
-              </p>
-            </div>
-          </div>
-        </a>
+          </a>
+        ))}
+
       </div>
     </section>
   );

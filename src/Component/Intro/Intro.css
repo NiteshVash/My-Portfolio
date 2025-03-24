@@ -1,8 +1,7 @@
-
 #intro {
   color: black;
   width: 100vw;
-  max-width: 75rem;
+  max-width: 85rem; /* Updated max-width */
   background-color: #ffffff;
   margin: 0 auto;
   height: calc(100vh - 4rem);
@@ -13,6 +12,7 @@
   text-align: center;
   padding: 2rem;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  min-height: 100vh; /* Ensure full height */
 }
 
 .introBtn {

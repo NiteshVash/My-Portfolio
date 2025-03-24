@@ -1,7 +1,7 @@
 .Contact {
   color: black;
   width: 100vw;
-  max-width: 75rem;
+  max-width: 85rem; /* Updated max-width */
   background-color: rgb(255, 255, 255);
   margin: 0 auto;
   min-height: 100vh; /* Ensures it takes full height */

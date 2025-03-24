@@ -1,8 +1,8 @@
 .Footer {
-  height: 25px;
+  height: 4rem ; /* Set to cover full height */
   color: white;
   width: 100%;
-  max-width: 75rem;
+  max-width: 85rem; /* Updated max-width */
   background-color: #4277eb;
   margin: 0 auto;
   min-height: 80px;

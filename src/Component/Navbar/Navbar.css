@@ -2,7 +2,7 @@
 .Navbar {
   height: 3rem;
   width: 100vw;
-  max-width: 75rem;
+  max-width: 85rem;
   margin: 0 auto;
   padding: 1rem 2rem;
   display: flex;
@@ -34,10 +34,13 @@
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.DesktopMenuListItem:hover {
-  color: black;
-  border-bottom: 3px solid black;
+
+
+.DesktopMenuListItem.active {
+  color: white; /* Change color for active item */
+  border-bottom: 3px solid white; /* Underline for active item */
 }
+
 .desktopbtn {
   background: #fff;
   color: #000;

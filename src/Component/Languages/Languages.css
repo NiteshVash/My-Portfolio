@@ -1,7 +1,7 @@
 .Languagessection {
     color: black;
     width: 100vw;
-    max-width: 75rem;
+    max-width: 85rem; /* Updated max-width */
     background-color: rgb(255, 255, 255);
     margin: 0 auto;
     display: flex;
@@ -10,7 +10,13 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 2rem;
+    padding: 1.5rem; /* Adjusted padding for mobile */
+}
+
+@media screen and (max-width: 768px) {
+    .Languagessection {
+        padding: 1rem; /* Further adjust padding for smaller screens */
+    }
 }
 
 .languagecontainer2 {
@@ -44,6 +50,13 @@
     font-size: 1.2rem;
     font-weight: 500;
     margin-bottom: 10px;
+    transition: color 0.3s ease; /* Added transition effect */
+}
+
+@media screen and (max-width: 768px) {
+    .languagenametitle {
+        font-size: 1rem; /* Adjusted font size for mobile */
+    }
 }
 
 .Languagesconatinerheading {
@@ -58,6 +71,12 @@
     font-weight: 400;
     text-align: center;
     padding: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .languagesdiscription {
+        font-size: 0.9rem; /* Adjusted font size for mobile */
+    }
 }
 
 /* --- Responsive Design for Tablets --- */
