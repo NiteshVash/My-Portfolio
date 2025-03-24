@@ -28,7 +28,7 @@ function Resume({ onClose }) {
           </div>
           <div>
             <h3 className="text-lg font-semibold text-blue-700">Academic Qualification</h3>
-            <ul className="pl-5 text-gray-700 list-none">
+            <ul >
               <li>10th pass from CBSE board (2020)</li>
               <li>12th pass from CBSE board (2022)</li>
             </ul>
@@ -43,7 +43,7 @@ function Resume({ onClose }) {
           </div>
           <div>
             <h3 className="text-lg font-semibold text-blue-700">Personal Information</h3>
-            <ul className="pl-5 text-gray-700 list-none">
+            <ul >
               <li>Father's Name: Umesh Kumar</li>
               <li>Date of Birth: 08-Jan-2005</li>
               <li>Languages Known: Hindi, English</li>
